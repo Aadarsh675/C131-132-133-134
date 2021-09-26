@@ -15,7 +15,7 @@ function setup() {
 function draw() {
     image(video, 0, 0, 380, 380);
     if (status != "") {
-        objectDetector.detect(video,  gotResult);
+        object_detector.detect(video,  gotResult);
         r = random(255);
         g = random(255);
         b = random(255);
